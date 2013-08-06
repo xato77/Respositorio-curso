@@ -1,0 +1,190 @@
+a {
+	color: #dd4f24;
+
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+{
+	background: #efefef;
+	color:grey;
+	font-family: 'Armata', sans-serif;;
+	font-size: 16px;
+	margin: 0;
+}
+header
+{
+	background: #434343;
+	
+	margin: 0px;
+	padding: 0.5em; /* se usan em para que las margenes se definen respecto al tamaño de la fuente, en este caso seria de 8px ya que el tamaño declarado 					es de 16 px */	
+}
+header h1
+{
+	color:white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 60%;
+}
+header figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+	
+
+}
+
+header #avatar
+{
+	float:right;
+	margin: 1em 1em 0 0;
+}
+header #avatar figcaption
+{
+	background: #22bce0;
+	float:right;
+	height: 50px;
+	
+}
+header #avatar figcaption:after{
+	font-family: 'icomoon';
+	content: "\e001";
+	font-size: 0.7em;
+	opacity:0.5;
+
+}
+header #avatar img
+{
+	float: left;
+	width: 50px;
+	
+}
+
+
+header #logo img
+{
+	width: 80px; /*solo se usa uno de los valores y el navegador ahusta el otro valor, en este caso solo se usa el with*/
+}
+header h1
+{
+	font-size: 1em;
+	font-weight: normal;
+}
+#contenido
+{
+	margin:1em;
+}
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px solid #22bec0;
+	position: relative;
+	margin-bottom: 3em;
+	min-height: 128px;
+	
+}
+#contenido .item p
+{
+	color: #7a7a7a;
+	font-size: 0.9em;
+}
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+#contenido .item .titulo_item
+{
+	font-size: 1em;
+	font-style: italic;
+	padding: 0.5em 0.5em 0;
+}
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration:none;
+
+}
+#contenido .item .datos_item .tag_item
+{
+	background: #22bce0;
+	border-radius:0.5em;
+	color: white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+#contenido .item .votacion{
+	
+	background: gray;
+	border-radius: 0 0 0.5em 0.5em;
+	width: 96px;
+	margin: 3px 0px 0px;
+	position: absolute;
+	padding: 0.5em 0;
+	top:100%;
+	text-align: center;
+}
+#contenido .item .votacion .up:after {
+	
+	content: "\e000";
+	font-family: 'icomoon';
+}
+nav 
+{
+	background: #878787;
+	font-size: 0.9em;
+}
+nav ul 
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1.2em 0 0;
+	vertical-align: top;
+
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	
+	padding: 0.5em 0;
+}
+nav #flechita_nav a
+{
+	background: #22bce0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+
+}
+nav #publicar_nav 
+{
+	float: right;
+	margin-right: 0px;
+}
+
+nav #publicar_nav a
+{
+	background: #DD4f24;
+	padding: 0.5em 1em;
+	text-decoration: none;
+}
